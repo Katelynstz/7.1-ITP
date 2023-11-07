@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--
+        Webpage for Intro to programming week 3
+    -->
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styleGames.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katelyns game page</title>
+    <script src="gameCode.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to my game page</h1>
+        <h3 class="blink_text">Want to play craps?</h3>
+    </header>
+    <nav>
+        <h2>
+            navigation
+        </h2>
+        <a href="./index.html">
+            home
+        </a><br>
+        <a href="./Boards.html">
+            boards
+        </a><br>
+        <a href="./game.html">
+            Game
+        </a><br>
+        <a href="./strings.html">
+            Strings 
+        </a><br>
+    </nav>
+
+    <p>
+        Rules to craps:<br>
+        1. roll two dice <br>
+        2. if the sum is 7 or 11, you lose!<br>
+        3. if the dice are equal to each other and even you win <br>
+
+    </p>
+    press button to play craps<br> <br>
+    Die 1 result: <div id="die1Res">press play craps for result</div><br>
+    Die 2 result: <div id="die2Res">press play craps for result</div><br>
+    sum result: <div id="sumRes">press play craps for result</div><br>
+    final result: <div id="finRes">press play craps for result</div><br>
+    <button onclick="playCraps()">
+        Play Craps
+    </button>
+</body>
+</html>
